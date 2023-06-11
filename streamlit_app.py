@@ -44,7 +44,6 @@ def svm_model(kadar_air, tak_larut, kalsium, magnesium, sulfat, nacl_wb, nacl_db
 selected = option_menu(
     menu_title="Klasifikasi Data Garam Menggunakan Metode Perceptron",
     options=["Dataset", "Prediksi Data Baru"],
-    # icons=["data", "Process", "model", "implemen", "Test"],
     orientation="horizontal",
 )
 
